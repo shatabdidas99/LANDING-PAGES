@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #E0C2A8;
+    display: flex;
+}
+#box1{
+    height: 100%;
+    width: 26%;
+    background-color: #d4b59a;
+}
+#box2{
+    height: 100%;
+    width: 68%;
+    background-color: #88501e;
+    background-image: url(https://plus.unsplash.com/premium_photo-1732697815367-80c3262419be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1NHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #ded9d62f;
+}
+#box3{
+    height: 100%;
+    width: 6%;
+    background-color: #8d5a2e;
+}
+#text{
+    height: 180PX;
+    position: absolute;
+    width: 500px;
+    left: 15%;
+    top: 20%;
+    transform: translate(-20%);
+
+}
+#text{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #895e53;
+
+}
+#image{
+    height: 400px;
+    width: 300px;
+    background-color: #9a4c3982;
+    background-image: url(https://images.unsplash.com/photo-1732423486660-43b0d2909e0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNDZ8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translate(0);
+}
+#overlay1{
+    height: 100%;
+    width: 100%;
+    background-color: #9f8b7951;
+}
+#verticaltext{
+    position: absolute;
+    width: 50%;
+    right: -22%;
+    
+}
+#verticaltext{
+    font-size: 20px;
+    font-weight: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 52%;
+    color: transparent;
+    letter-spacing: 15px;
+    transform: rotate(90deg);
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    left: 8%;
+    top: 5%;
+    
+}
+#nav img{
+    height: 50px;
+    
+}
+#nav h5{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
